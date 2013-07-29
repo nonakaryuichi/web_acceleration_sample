@@ -1,0 +1,6 @@
+# sass and compass
+.sass-cache/
+
+# sublime project
+acceration.sublime-project
+acceration.sublime-workspace
