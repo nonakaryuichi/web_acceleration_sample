@@ -1,0 +1,25 @@
+.image {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url('/images/requests-sbb39977a67.png') no-repeat; }
+  .image.type01 {
+    background-position: 0 0; }
+  .image.type02 {
+    background-position: -120px 0; }
+  .image.type03 {
+    background-position: -240px 0; }
+  .image.type04 {
+    background-position: -360px 0; }
+  .image.type05 {
+    background-position: -480px 0; }
+  .image.type06 {
+    background-position: -600px 0; }
+  .image.type07 {
+    background-position: -720px 0; }
+  .image.type08 {
+    background-position: -840px 0; }
+  .image.type09 {
+    background-position: -960px 0; }
+  .image.type10 {
+    background-position: -1080px 0; }

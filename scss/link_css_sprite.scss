@@ -1,0 +1,61 @@
+.image
+{
+	$images: sprite-map("requests/*.png", $spacing: 20px, $layout: horizontal);
+
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+
+	background : $images no-repeat;
+
+	&.type01
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_01 );
+	}
+	&.type02
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_02 );
+	}
+	&.type03
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_03 );
+	}
+	&.type04
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_04 );
+	}
+	&.type05
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_05 );
+	}
+	&.type06
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_06 );
+	}
+	&.type07
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_07 );
+	}
+	&.type08
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_08 );
+	}
+	&.type09
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_09 );
+	}
+	&.type10
+	{
+		background-position:
+			sprite-position( $images, load_sample_image_10 );
+	}
+}
