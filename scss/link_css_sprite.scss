@@ -1,6 +1,6 @@
 .image
 {
-	$images: sprite-map("requests/*.png", $spacing: 20px, $layout: horizontal);
+	$images: sprite-map("requests/*.png", $spacing: 10px, $layout: horizontal);
 
 	display: inline-block;
 	width: 100px;
